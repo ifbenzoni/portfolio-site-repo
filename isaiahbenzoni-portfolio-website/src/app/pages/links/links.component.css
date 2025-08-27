@@ -1,0 +1,11 @@
+.link-formatting {
+    list-style: none;
+    align-items: center;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.link-formatting li a {
+    font-size: 25px;
+}

@@ -1,0 +1,17 @@
+<nav class="link-banner">
+  <a class="link">Pages:</a>
+  <div class="link-position">
+    <a class = "link" routerLink="/">Home</a>
+    <a class = "link" routerLink="/certs">Certifications</a>
+    <a class = "link" routerLink="/links">Links</a>
+  </div>
+</nav>
+
+@if (showArrow())
+{
+  <div>
+    <img src="down.png" alt="Down Arrow" class="down-arrow">
+  </div>
+}
+
+<router-outlet></router-outlet>

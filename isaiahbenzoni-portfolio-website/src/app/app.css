@@ -1,0 +1,41 @@
+.link-banner {
+    background-color: black;
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+.link-position {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    flex-wrap: wrap;
+}
+
+.down-arrow {
+    width: 100px;
+    height: auto;
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    image-rendering: pixelated;
+    animation: blink 3s infinite;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
